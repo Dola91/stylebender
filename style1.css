@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 25px 50px 75px 100px;
+    /* background-color: black; */
+}
+
+/* body {
+    background-image: url('./images/mma.png');  
+} */
+
+#navbar {
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+#navbar a {
+    color:black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navbar a:hover{
+    color: firebrick ;
+    cursor: pointer;
+    box-shadow: darkorange;
+}
+
+h1 {
+    color: darkolivegreen;
+    font-size: 70px;
+    font-family:'Italianno', cursive;
+}
+
+h3 {
+    color: black;
+    font-size: 70px;
+    font-family: 'Italianno', cursive;;
+}
+
+.center {}
+
+.flexbox-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    flex-basis: 25%;
+}
+
+.flexbox-item {
+    height: 90px;
+    width: 300px;
+    margin: 10px;
+    border:black 3px;
+    background-color: darkolivegreen;
+    text-align: left;
+}
+
+.flexbox-item-1 {
+    min-height: 50px;
+}
+
+.flexbox-item-2 {
+    min-height: 50px;
+}
+
+.flexbox-item-3 {
+    min-height: 50px;
+}
